@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  apignews:
+    image: ${DOCKER_REGISTRY-}apignews
+    build:
+      context: .
+      dockerfile: apiGNews/Dockerfile
