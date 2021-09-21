@@ -3,7 +3,7 @@
   <PropertyGroup Label="Globals">
     <ProjectVersion>2.1</ProjectVersion>
     <DockerTargetOS>Linux</DockerTargetOS>
-    <ProjectGuid>{6B178117-2D24-4EB5-A459-D0C3917FDF0F}</ProjectGuid>
+    <ProjectGuid>{94248BAA-0F07-4CC3-BFB9-E08AD7BD7CAE}</ProjectGuid>
     <DockerLaunchBrowser>True</DockerLaunchBrowser>
     <DockerServiceUrl>{Scheme}://localhost:{ServicePort}/weatherforecast</DockerServiceUrl>
     <DockerServiceName>apignews</DockerServiceName>

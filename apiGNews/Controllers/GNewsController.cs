@@ -22,7 +22,7 @@ namespace apiGNews.Controllers
             {
                 Posts posts = new Posts();
                 List<miniPost> miniPost = new List<miniPost>();
-                var url = "https://gnews.io/api/v4/search?q=watches&token=a54fda58ab820ab0d2798f2e1c6349d0";
+                var url = "https://gnews.io/api/v4/search?q=watches&token=cea4340922446f27a063dcae0c94bbec";
                 using (var http = new HttpClient())
                 {
                     var response = await http.GetStringAsync(url);

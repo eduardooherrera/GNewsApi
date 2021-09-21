@@ -30,14 +30,14 @@ namespace apiGNews
         {
             services.AddCors(options =>
             {
-                //options.AddPolicy(name: MyAllowSpecificOrigins,
-                //                  builder =>
-                //                  {
-                //                      builder.WithOrigins("http://localhost:5001/",
-                //                                          "http://localhost:5001")
-                //                                        .AllowAnyHeader()
-                //                                        .AllowAnyMethod(); ;
-                //                  });
+                options.AddPolicy(name: MyAllowSpecificOrigins,
+                                  builder =>
+                                  {
+                                      builder.WithOrigins("http://localhost:5001/",
+                                                          "http://localhost:5001")
+                                                        .AllowAnyHeader()
+                                                        .AllowAnyMethod(); ;
+                                  });
             });
 
             services.AddControllers();
